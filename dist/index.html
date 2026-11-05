@@ -68,6 +68,17 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media(max-width:430px){.footer-brand{gap:8px}.footer .footer-logo{width:min(64vw,230px)}.footer{padding-bottom:190px}}
 @media(prefers-reduced-motion:reduce){.footer-brand-logo{transition:none}}
 .footer-meta{display:grid;gap:8px}.footer-credit{color:#909a8d;font-size:11px;letter-spacing:.04em}@media(max-width:800px){.footer-meta{text-align:center}}
+
+@media(max-width:800px){
+  .hero{grid-template-columns:1fr}
+  .hero-image{grid-row:1;min-height:clamp(390px,54svh,500px)}
+  .hero-image img{object-position:center 24%}
+  .hero-image:after{background:linear-gradient(0deg,#101113d9 0%,#10111310 35%,transparent 60%)}
+  .hero-copy{grid-row:2;padding:42px 22px 62px}
+  .hero-copy .eyebrow{display:none}
+  .image-label{left:22px;right:auto;bottom:22px;padding:11px 13px;border-left:3px solid var(--lime);background:#101113b8;line-height:1.4;font-size:11px;letter-spacing:.12em}
+}
+@media(max-width:430px){.hero-image{min-height:clamp(370px,55svh,440px)}.hero-copy{padding-top:38px}.image-label{left:18px;bottom:18px;max-width:calc(100% - 36px);font-size:10px;letter-spacing:.08em}}
   </style>
 </head>
 <body>
@@ -77,7 +88,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
     <nav class="nav" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#planos">Planos</a><a href="#resultados">Alunos</a><a href="#duvidas">Dúvidas</a><a class="header-cta" href="#contato">Contato ↗</a></nav>
   </header>
   <main>
-    <section class="hero" id="inicio"><div class="hero-copy"><div class="eyebrow">Personal trainer</div><h1>Seu treino.<br><em>Seu ritmo.</em><br>Sua evolução.</h1><p class="lead">Encontre um jeito de treinar que faça sentido para a sua rotina. Com Willian Oliveira, você pode escolher entre acompanhamento presencial e consultoria online.</p><div class="actions"><a class="button button-primary" href="#servicos">Conheça as opções <span>↗</span></a><a class="button button-secondary" href="#contato">Fale com o Willian</a></div></div><div class="hero-image"><img src="assets/willian-oliveira.jpeg" width="960" height="1280" alt="Willian Oliveira em uma academia" fetchpriority="high" decoding="async"><span class="image-label">Willian Oliveira / Personal Trainer</span></div></section>
+    <section class="hero" id="inicio"><div class="hero-copy"><div class="eyebrow">Willian Oliveira - Personal Trainer</div><h1>Seu treino.<br><em>Seu ritmo.</em><br>Sua evolução.</h1><p class="lead">Encontre um jeito de treinar que faça sentido para a sua rotina. Com Willian Oliveira, você pode escolher entre acompanhamento presencial e consultoria online.</p><div class="actions"><a class="button button-primary" href="#servicos">Conheça as opções <span>↗</span></a><a class="button button-secondary" href="#contato">Fale com o Willian</a></div></div><div class="hero-image"><img src="assets/willian-oliveira.jpeg" width="960" height="1280" alt="Willian Oliveira em uma academia" fetchpriority="high" decoding="async"><span class="image-label">Willian Oliveira - Personal Trainer</span></div></section>
     <div class="stripe" aria-hidden="true"></div>
     <section class="section wrap" id="servicos"><div class="section-head"><div><div class="kicker">Escolha seu formato</div><h2>Treino que acompanha a sua vida.</h2></div><p class="section-intro">Do encontro na academia ao acompanhamento à distância, o ponto de partida é entender o que você busca e qual formato funciona para você.</p></div><div class="services"><article class="service"><div class="service-number">01 / PRESENCIAL</div><div><h3>Personal presencial</h3><p>Treine com a presença do Willian, orientação durante os exercícios e atenção à execução em cada sessão.</p></div><a href="#contato">Quero saber mais ↗</a></article><article class="service"><div class="service-number">02 / ONLINE</div><div><h3>Consultoria online</h3><p>Uma opção para quem prefere organizar os treinos à distância e manter o acompanhamento dentro da própria rotina.</p></div><a href="#contato">Quero saber mais ↗</a></article></div></section>
     <section class="section approach" id="metodo"><div class="wrap approach-grid"><div><div class="kicker">O próximo passo</div><h2>Comece com uma conversa.</h2><p>Conte seus objetivos, sua experiência com exercícios e como são seus dias. Assim, vocês podem encontrar o formato de acompanhamento mais adequado para começar.</p></div><div class="steps"><div class="step"><strong>01</strong><div><h3>Conte seu objetivo</h3><p>Compartilhe o que você espera do treino.</p></div></div><div class="step"><strong>02</strong><div><h3>Escolha o formato</h3><p>Presencial ou online, de acordo com a sua rotina.</p></div></div><div class="step"><strong>03</strong><div><h3>Comece a treinar</h3><p>Combine os próximos passos diretamente com o Willian.</p></div></div></div></div></section>
