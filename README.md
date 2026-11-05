@@ -18,4 +18,4 @@ Acesse `http://localhost:8000`.
 - Depoimentos e imagens de evolução com autorização dos alunos
 - Número de WhatsApp
 
-Instagram: [@willianoliveeira](https://www.instagram.com/willianoliveeira/).
+Instagram: [@wilianoliveeira](https://www.instagram.com/wilianoliveeira/).
